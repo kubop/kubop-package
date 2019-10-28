@@ -1,0 +1,19 @@
+{
+  "name": "kubop-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha ./test/"
+  },
+  "author": "kubop",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "Davidko_package": "git+https://github.com/FoXx1337x2/baari_package.git",
+    "express": "^4.17.1"
+  }
+}
